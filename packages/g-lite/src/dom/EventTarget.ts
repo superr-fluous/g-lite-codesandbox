@@ -1,5 +1,5 @@
 import { isBoolean, isFunction } from '@antv/util';
-import EventEmitter from 'eventemitter3';
+import { default as EventEmitter } from 'eventemitter3';
 import { CustomEvent } from './CustomEvent';
 import { FederatedEvent } from './FederatedEvent';
 import type {
