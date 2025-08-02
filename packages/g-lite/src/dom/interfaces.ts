@@ -1,5 +1,5 @@
 import type RBush from 'rbush';
-import EventEmitter from 'eventemitter3';
+import { default as EventEmitter } from 'eventemitter3';
 import type { GlobalRuntime } from '..';
 import type { ICamera } from '../camera';
 import type { RBushNodeAABB } from '../components';
